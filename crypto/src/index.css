@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navcontainer{
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  background:rgb(10, 21, 37);
+  width: 100%;
+  min-height: 5rem;
+  position: fixed;
+}
+ .icon{
+
+  display: flex;
+  font-size: rem;
+  color: aquamarine;
+
+} 
+.icon p{
+  margin: auto;
+
+}
+.link a{
+  text-decoration: none;
+ padding: 0 4rem;
+ color: white;
+ border: none;
+ /* box-shadow: 0px 0px 0.5rem blue; */
+}
+.link a:hover{
+  color: aqua;
+ 
+}
+.link a.active{
+ color:rgb(182, 120, 72);
+
+}
+
+.home{
+  background-image: url(https://picsum.photos/1600/1200);
+ background-repeat: no-repeat;
+  background-position:center;
+ background-size: cover;
+  width: 100%;
+  min-height: 80vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ flex-wrap: wrap;
+ padding: 5rem 7rem;
+}
+
+
+
